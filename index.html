@@ -89,7 +89,7 @@
                 </div>
                 <div class="col-xs-12 col-sm-2">
                     <p style="padding:40px;"></p>
-                    <a href="#reserve_table" class="btn btn-warning" role="button">Reserve table</a>
+                    <a href="#reserve_table" class="btn btn-warning  btn-block" role="button">Reserve table</a>
                 </div>
             </div>
         </div>
@@ -198,12 +198,12 @@
                     </div>
                     <div class="col-xs-6 col-sm-9 form-group">
                         <div class="form-group has-feedback">
-                            <input type="text" class="form-control" id="date" placeholder="date">
+                            <input type="date" class="form-control" id="date" placeholder="date">
                             <i class="glyphicon glyphicon-calendar form-control-feedback"></i>
                         </div>
                     
                         <div class="form-group has-feedback" style="padding-left:50px">
-                            <input type="text" class="form-control" id="time" placeholder="time">
+                            <input type="time" class="form-control" id="time" placeholder="time">
                             <i class="glyphicon glyphicon-time form-control-feedback"></i>
                         </div>
                     </div>
@@ -217,7 +217,7 @@
                 <div class="alert alert-warning alert-dismissible" role="alert" style="margin:15px">
                     
   <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-  <strong>Warning!</strong> Please <strong>call</strong> us to reserve for more than six guests.
+  <strong>Warning!</strong> Please <a href="tel:85212345678" style="color:black"><strong>call</strong></a> us to reserve for more than six guests.
 </div>
             </form>
                 
@@ -245,7 +245,7 @@
 		              121, Clear Water Bay Road<br>
 		              Clear Water Bay, Kowloon<br>
 		              HONG KONG<br>
-		              <i class="fa fa-phone"></i>: +852 1234 5678<br>
+		              <i id="phone" class="fa fa-phone"></i>: +852 1234 5678<br>
 		          <i class="fa fa-fax"></i>: +852 8765 4321<br>
 		          <i class="fa fa-envelope"></i>: 
                                  <a href="mailto:confusion@food.net">confusion@food.net</a>
